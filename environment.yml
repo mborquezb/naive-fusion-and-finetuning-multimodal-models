@@ -1,0 +1,24 @@
+name: mbb-cc66v-1-assignment-1
+channels:
+  - conda-forge
+  - nodefaults
+dependencies:
+  - python=3.11
+  - ipywidgets
+  - jupyterlab>=4
+  - jupyterlab_widgets
+  - ipykernel
+  - numpy>=1.26
+  - pandas>=2.0
+  - matplotlib>=3.8
+  - scikit-learn>=1.4
+  - pillow>=10.0
+  - tqdm>=4.66
+  - pip
+  - pip:
+      - torch==2.3.0
+      - torchvision==0.18.0
+      - transformers>=4.47
+      - accelerate>=0.33
+      - safetensors>=0.4
+      - sentencepiece>=0.2
