@@ -8,12 +8,13 @@ dependencies:
   - jupyterlab>=4
   - jupyterlab_widgets
   - ipykernel
-  - numpy>=1.26
+  - numpy=1.26.*
   - pandas>=2.0
   - matplotlib>=3.8
   - scikit-learn>=1.4
   - pillow>=10.0
   - tqdm>=4.66
+  - gensim=4.3.3
   - pip
   - pip:
       - torch==2.3.0
