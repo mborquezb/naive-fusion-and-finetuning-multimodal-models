@@ -1,7 +1,9 @@
 name: mbb-cc66v-1-assignment-1
 channels:
+  - pytorch
+  - nvidia
   - conda-forge
-  - nodefaults
+  - defaults
 dependencies:
   - python=3.11
   - ipywidgets
@@ -15,10 +17,12 @@ dependencies:
   - pillow>=10.0
   - tqdm>=4.66
   - gensim=4.3.3
+  - pytorch=2.3
+  - torchvision=0.18
+  - pytorch-cuda=12.1
+  - fastparquet 
   - pip
   - pip:
-      - torch==2.3.0
-      - torchvision==0.18.0
       - transformers>=4.47
       - accelerate>=0.33
       - safetensors>=0.4

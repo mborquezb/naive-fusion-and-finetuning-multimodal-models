@@ -17,6 +17,5 @@ __pycache__/
 *.npy
 *.ckpt
 *.h5
-*.parquet
 secrets.yml
 data/*
